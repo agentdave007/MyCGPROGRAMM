@@ -1,0 +1,9 @@
+#include<graphics.h>
+#include<conio.h>
+main()
+{
+	initwindow(800,800);
+	outtextxy(400,400,"Hello");
+	getch();
+	closegraph();
+}
